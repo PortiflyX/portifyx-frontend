@@ -4,6 +4,8 @@ import { Providers } from "./providers";
 import { Sidebar } from "@/components/layout/sidebar";
 import { BottomNav } from "@/components/layout/bottom-nav";
 
+export const dynamic = 'force-dynamic';
+
 export const metadata: Metadata = {
   title: "PortifyX | Trade Platform Multi-Exchange Portfolio",
   description: "Next-generation crypto portfolio dashboard modeled after Bitkub Trade Platform engineering patterns.",
